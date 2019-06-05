@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+}
+.Login {
+  background-color: #282c34;
+}
+
+label {
+  color: #ffffff !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: #050505;
+}
+
+.title {
+  color: #fafafa;
+}
+span {
+  color: #c4c3c3;
+  margin-bottom: 3rem;
+}
