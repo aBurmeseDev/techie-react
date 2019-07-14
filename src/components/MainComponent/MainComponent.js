@@ -6,7 +6,7 @@ const NewsList = props => {
     <Grid.Row columns={4}>
       <Grid.Column>
         <Image src={news.urlToImage} alt={news.title} size="large" centered />
-        <p key={i}>
+        <p key={i} style={{ margin: "2rem 0" }}>
           <a href={news.url} class="title">
             {news.title}
           </a>
@@ -19,7 +19,7 @@ const NewsList = props => {
   ));
   return (
     <div>
-      <h3 style={{ color: "#ffffff" }}>Welcome to Techie</h3>
+      <h3 style={{ color: "#ffffff" }}>Techie Top-headlines</h3>
 
       <ul>{newsList}</ul>
     </div>

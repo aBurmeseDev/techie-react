@@ -30,9 +30,9 @@ class Clock extends Component {
   }
   render() {
     return (
-      <h5 style={{ marginTop: "3rem", color: "#ffffff" }}>
+      <h3 style={{ marginTop: "3rem", color: "#ffffff" }}>
         Date: {this.state.dateTime}
-      </h5>
+      </h3>
     );
   }
 }

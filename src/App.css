@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #282c34;
+  background-color: #222222;
 }
 .App {
   text-align: center;
@@ -26,9 +26,9 @@ label {
 }
 
 .title {
-  color: #fafafa;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 span {
-  color: #c4c3c3;
-  margin-bottom: 3rem;
+  color: #ffffffe0;
 }

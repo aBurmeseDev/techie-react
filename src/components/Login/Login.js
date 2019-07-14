@@ -14,7 +14,7 @@ class Login extends Component {
   };
   render() {
     return (
-      <div class="App-header">
+      <div className="App-header">
         <Button type="submit" onClick={this.handleSubmit}>
           Enter Site
         </Button>
